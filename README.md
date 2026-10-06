@@ -22,6 +22,15 @@ The two sides intentionally expose similar Delphi-oriented abstractions where th
 
 The project is an independent community project. It is **not an official Microsoft or Embarcadero framework**.
 
+🎥 [<img width="20" height="20" alt="youtube-icon-20x20" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" />
+ .  Watch the Delphi WinUI3 Framework Calculator demo on YouTube](https://youtu.be/Te1u78KmK4g)
+
+🎥 [<img width="20" height="20" alt="youtube-icon-20x20" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" />
+ .  Watch the Delphi WinUI3 Framework Login demo on YouTube](https://youtu.be/FLzL5ccjmd4)
+
+🎥 [<img width="20" height="20" alt="youtube-icon-20x20" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" />
+ .  Watch the Delphi WinUI2 Framework Login demo on YouTube](https://youtu.be/8p-qNxAgx24)
+
 ## Repository layout
 
 ```text
