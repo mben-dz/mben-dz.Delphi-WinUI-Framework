@@ -6,6 +6,9 @@ Native Windows UI development with Delphi using **WinUI 2 / XAML Islands** and *
 >
 > This repository contains an experimental Delphi framework under active development. APIs, units, classes, deployment details and project structure may change without notice. It is not currently recommended for production-critical applications.
 
+<img width="1536" height="1024" alt="ChatGPT Image 6 oct  2026, 13_30_15" src="https://github.com/user-attachments/assets/be22c38c-e3f7-44de-9765-760be70114e1" />
+
+
 ## What is this?
 
 This project explores a Delphi-first way of building modern Windows desktop applications with Microsoft's XAML/WinRT UI technologies.
