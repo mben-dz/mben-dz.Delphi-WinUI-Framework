@@ -1,10 +1,39 @@
 # mben-dz Delphi WinUI Framework
 
-Native Windows UI development with Delphi using **WinUI 2 / XAML Islands** and **WinUI 3 / Windows App SDK**.
+[![Status](https://img.shields.io/badge/status-BETA-orange?style=for-the-badge)](https://github.com/mben-dz/mben-dz.Delphi-WinUI-Framework)
+[![Delphi](https://img.shields.io/badge/Delphi-13%20Florence-blue?style=for-the-badge)](https://www.embarcadero.com/products/delphi)
+[![Windows](https://img.shields.io/badge/Windows%2010-22H2-0078D6?style=for-the-badge&logo=windows)](https://www.microsoft.com/windows)
+[![WinUI 2](https://img.shields.io/badge/WinUI%202-XAML%20Islands-5C2D91?style=for-the-badge)](https://learn.microsoft.com/windows/apps/winui/)
+[![WinUI 3](https://img.shields.io/badge/WinUI%203-Windows%20App%20SDK-5C2D91?style=for-the-badge)](https://learn.microsoft.com/windows/apps/windows-app-sdk/)
+[![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 
 > **⚠️ BETA — USE AT YOUR OWN RISK**
 >
 > This repository contains an experimental Delphi framework under active development. APIs, units, classes, deployment details and project structure may change without notice. It is not currently recommended for production-critical applications.
+
+### 🧪 Tested Environment
+
+**Delphi 13 Florence (first release)** · **Windows 10 Pro 22H2** · **OS Build 19045.6466** · **Installed 20 September 2026**
+
+### 🪟 WinUI 2
+
+**Windows 10 1903 / Build 18362+** · XAML Islands · `DesktopWindowXamlSource` · **Standalone EXE concept**
+
+### 🧩 WinUI 3
+
+**Windows App SDK** · Microsoft UI namespaces · Windows App SDK bootstrap/runtime model
+
+### 📦 WinUI 2 Deployment Test
+
+The current WinUI 2 Login Demo release is configured as a **standalone executable with Delphi runtime packages disabled** and also configured with **compiler optimization disabled** while an optimized Release issue is being investigated.
+
+### 📜 License
+
+**MIT** — applies to the original project source code in this repository. Third-party components remain subject to their respective licenses.
+
+---
+
+<img width="1536" height="1024" alt="Delphi WinUI Framework" src="https://github.com/user-attachments/assets/be22c38c-e3f7-44de-9765-760be70114e1" />
 
 ## What is this?
 
@@ -18,6 +47,16 @@ It currently contains two related implementations:
 The two sides intentionally expose similar Delphi-oriented abstractions where the underlying concepts are similar.
 
 The project is an independent community project. It is **not an official Microsoft or Embarcadero framework**.
+
+🎥 [<img width="20" height="20" alt="YouTube" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" /> Watch the Delphi WinUI 3 Framework Calculator demo on YouTube](https://youtu.be/Te1u78KmK4g)
+
+<img width="517" height="953" alt="WinUI 3 Calculator" src="https://github.com/user-attachments/assets/1192e628-99b2-438d-97e8-ef4c1cddcaec" />
+
+🎥 [<img width="20" height="20" alt="YouTube" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" /> Watch the Delphi WinUI 3 Framework Login demo on YouTube](https://youtu.be/FLzL5ccjmd4)
+
+🎥 [<img width="20" height="20" alt="YouTube" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" /> Watch the Delphi WinUI 2 Framework Login demo on YouTube](https://youtu.be/8p-qNxAgx24)
+
+<img width="1396" height="1014" alt="WinUI 2 Login Demo" src="https://github.com/user-attachments/assets/b23eaf79-b408-49d4-aedb-62ae90dfdf0c" />
 
 ## Repository layout
 
@@ -79,7 +118,7 @@ One goal is to keep the Delphi APIs similar enough that developers can learn the
 
 ### WinUI 2
 
-- Windows 10 1903 / build 18362 or later for the current implementation
+- Windows 10 version 1903 / build 18362 or later for the current implementation
 - Delphi Win32 development environment with the required Windows/WinRT bindings
 - XAML Islands support provided by the target Windows installation
 
@@ -92,6 +131,25 @@ This minimum is for **this implementation**, not a claim that every WinUI 2/UWP 
 - Windows App SDK runtime/deployment appropriate to the application
 
 The exact supported Windows versions should be checked against the Windows App SDK version being used.
+
+## Tested Development Environment
+
+The current Beta release was developed and initially tested with:
+
+### Delphi
+
+- **Embarcadero Delphi 13 Florence — first release**
+
+### Windows
+
+- **Edition:** Windows 10 Pro
+- **Version:** 22H2
+- **Installed:** 20 September 2026
+- **OS Build:** 19045.6466
+
+These versions describe the author's development and initial test environment. They are **not intended to define the minimum supported Delphi or Windows version**.
+
+Additional testing on other Delphi releases, Windows 10 builds and Windows 11 versions is welcome and will help identify compatibility issues.
 
 ## Demos
 
@@ -113,13 +171,24 @@ A separate calculator application demonstrating the WinUI 3 framework units, XAM
 
 ## Building
 
-Open the corresponding `.dproj` file in Delphi and build the required Windows target.
+Open the corresponding `.dpr` file in Delphi and build the required Windows target, and ensure to add the custom manifest file.
 
-The project files have been cleaned of the author's IDE-captured package inventories so the repository does not assume unrelated third-party Delphi packages from the author's development machine.
+<img width="1280" height="690" alt="image" src="https://github.com/user-attachments/assets/370c2c5f-1491-453d-9da5-5dd3d5653b43" />
+
+
+The project files have been cleaned of the*.dproj files to remove author's IDE-captured package inventories so the repository does not assume unrelated third-party Delphi packages from the author's development machine.
 
 You may still need the normal Delphi libraries/components required by the sample. The login samples require FireDAC/SQLite support supplied by the Delphi installation.
 
 For WinUI 3, the appropriate Windows App SDK runtime/deployment environment is required.
+
+### WinUI 2 Standalone Beta Build
+
+The WinUI 2 Login Demo included with the current Beta release is configured as a **standalone executable** with **Delphi runtime packages disabled**.
+
+For this particular Beta/Proof-of-Concept build, **compiler optimization is intentionally disabled** while a Release-optimization issue is being investigated.
+
+The purpose of this configuration is to allow testing of the standalone WinUI 2/XAML Islands deployment concept independently of the optimization issue.
 
 ## Beta status
 
@@ -139,6 +208,10 @@ Some scenarios may require working directly with the underlying WinRT interfaces
 
 The behavior of XAML Islands, WinUI and Windows App SDK can also vary with Windows releases and runtime versions.
 
+The current WinUI 2 implementation is still being tested across different Windows and Delphi configurations.
+
+The current WinUI 3 implementation is also dependent on the Windows App SDK version and its corresponding deployment/runtime requirements.
+
 ## Deployment philosophy
 
 One motivation for the WinUI 2 implementation is to investigate how much modern Windows XAML UI can be used while keeping the final application close to a conventional native Delphi executable.
@@ -146,6 +219,8 @@ One motivation for the WinUI 2 implementation is to investigate how much modern 
 WinUI 3 follows a different model because it is based on the Windows App SDK runtime.
 
 The framework therefore does not promise that WinUI 2 and WinUI 3 have identical deployment requirements.
+
+The WinUI 2 standalone demonstration is specifically intended to explore the possibility of deploying a native Delphi executable that uses the XAML/WinRT infrastructure already supplied by Windows, without requiring the Windows App SDK runtime/bootstrap used by WinUI 3.
 
 ## Third-party and Microsoft components
 
@@ -179,11 +254,35 @@ Because this project is Beta software, it should not be assumed suitable for saf
 
 Bug reports, testing feedback and focused improvements are welcome.
 
-For Windows-specific issues, please include Windows version/build, Delphi version, WinUI / Windows App SDK version where applicable, target architecture, exact commit/version tested and a minimal reproduction where possible.
+For Windows-specific issues, please include:
+
+- Windows version/build
+- Delphi version
+- WinUI / Windows App SDK version where applicable
+- Target architecture
+- Exact commit/version tested
+- A minimal reproduction where possible
+
+Testing on Windows versions and Delphi releases other than the author's development environment is particularly welcome.
 
 ## Roadmap
 
-The roadmap is intentionally flexible while the framework is being developed. Areas being explored include additional WinUI controls, improved event wrappers, navigation improvements, resource handling, window integration, DPI behavior, XAML support, more samples, broader Windows-version testing, Delphi-version compatibility testing, API stabilization and packaging/distribution improvements.
+The roadmap is intentionally flexible while the framework is being developed.
+
+Areas being explored include:
+
+- Additional WinUI controls
+- Improved event wrappers
+- Navigation improvements
+- Resource handling
+- Window integration
+- DPI behavior
+- XAML support
+- More samples
+- Broader Windows-version testing
+- Delphi-version compatibility testing
+- API stabilization
+- Packaging and distribution improvements
 
 ## Author
 
