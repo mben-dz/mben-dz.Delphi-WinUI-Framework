@@ -171,9 +171,12 @@ A separate calculator application demonstrating the WinUI 3 framework units, XAM
 
 ## Building
 
-Open the corresponding `.dproj` file in Delphi and build the required Windows target.
+Open the corresponding `.dpr` file in Delphi and build the required Windows target, and ensure to add the custom manifest file.
 
-The project files have been cleaned of the author's IDE-captured package inventories so the repository does not assume unrelated third-party Delphi packages from the author's development machine.
+<img width="1280" height="690" alt="image" src="https://github.com/user-attachments/assets/370c2c5f-1491-453d-9da5-5dd3d5653b43" />
+
+
+The project files have been cleaned of the*.dproj files to remove author's IDE-captured package inventories so the repository does not assume unrelated third-party Delphi packages from the author's development machine.
 
 You may still need the normal Delphi libraries/components required by the sample. The login samples require FireDAC/SQLite support supplied by the Delphi installation.
 
