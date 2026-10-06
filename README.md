@@ -25,7 +25,7 @@
 
 ### 📦 WinUI 2 Deployment Test
 
-The current WinUI 2 Login Demo release is configured as a **standalone executable with Delphi runtime packages disabled**. The released test build is also configured with **compiler optimization disabled** while an optimized Release issue is being investigated.
+The current WinUI 2 Login Demo release is configured as a **standalone executable with Delphi runtime packages disabled** and also configured with **compiler optimization disabled** while an optimized Release issue is being investigated.
 
 ### 📜 License
 
