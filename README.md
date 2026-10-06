@@ -34,7 +34,8 @@ The project is an independent community project. It is **not an official Microso
 🎥 [<img width="20" height="20" alt="youtube-icon-20x20" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" />
  .  Watch the Delphi WinUI2 Framework Login demo on YouTube](https://youtu.be/8p-qNxAgx24)
 
-<img width="1450" height="1037" alt="image" src="https://github.com/user-attachments/assets/4f6cd2cb-b3f5-41e2-82c5-09a4a94b1391" />
+<img width="1396" height="1014" alt="image" src="https://github.com/user-attachments/assets/b23eaf79-b408-49d4-aedb-62ae90dfdf0c" />
+
 
 
 
