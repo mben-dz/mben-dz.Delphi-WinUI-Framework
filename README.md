@@ -25,11 +25,17 @@ The project is an independent community project. It is **not an official Microso
 🎥 [<img width="20" height="20" alt="youtube-icon-20x20" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" />
  .  Watch the Delphi WinUI3 Framework Calculator demo on YouTube](https://youtu.be/Te1u78KmK4g)
 
+<img width="517" height="953" alt="image" src="https://github.com/user-attachments/assets/1192e628-99b2-438d-97e8-ef4c1cddcaec" />
+
+
 🎥 [<img width="20" height="20" alt="youtube-icon-20x20" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" />
  .  Watch the Delphi WinUI3 Framework Login demo on YouTube](https://youtu.be/FLzL5ccjmd4)
 
 🎥 [<img width="20" height="20" alt="youtube-icon-20x20" src="https://github.com/user-attachments/assets/e93a5ca0-905e-4e34-9a29-7babd81f2a44" />
  .  Watch the Delphi WinUI2 Framework Login demo on YouTube](https://youtu.be/8p-qNxAgx24)
+
+<img width="500" height="373" alt="image" src="https://github.com/user-attachments/assets/c09eb0dd-e369-4838-86a5-911b90437ffa" />
+
 
 ## Repository layout
 
