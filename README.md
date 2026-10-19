@@ -58,6 +58,14 @@ The project is an independent community project. It is **not an official Microso
 
 <img width="1396" height="1014" alt="WinUI 2 Login Demo" src="https://github.com/user-attachments/assets/b23eaf79-b408-49d4-aedb-62ae90dfdf0c" />
 
+
+## Super Acrylic Rounded corners Login Demo:
+
+https://github.com/user-attachments/assets/19f23106-b678-4461-b3ea-3e2039fc41dd
+
+Direct Link for test: [here](https://github.com/mben-dz/mben-dz.Delphi-WinUI-Framework/releases/download/v0.1.0-beta/Standalone_Winui2_Acrylic_Login.exe).
+
+
 ## Repository layout
 
 ```text
