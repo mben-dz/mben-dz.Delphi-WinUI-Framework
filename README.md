@@ -65,6 +65,8 @@ https://github.com/user-attachments/assets/19f23106-b678-4461-b3ea-3e2039fc41dd
 
 Direct Link for test: [here](https://github.com/mben-dz/mben-dz.Delphi-WinUI-Framework/releases/download/v0.1.0-beta/Standalone_Winui2_Acrylic_Login.exe).
 
+Direct Link for Extended test: [here](https://github.com/mben-dz/mben-dz.Delphi-WinUI-Framework/releases/download/v0.1.0-beta/Standalone_Winui2_Extended_Acrylic_Login.exe).
+
 
 ## Repository layout
 
